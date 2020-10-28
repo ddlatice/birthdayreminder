@@ -27,7 +27,7 @@ function Form() {
     const [date, setDate] = useState("");
     const [relationship, setRelationship] = useState("");
 
-    const [dates, setDates] = useContext(DateContext);
+    const [setDates] = useContext(DateContext);
 
 
     const updateItem = (e) => {
